@@ -1,0 +1,23 @@
+        import React from "react";
+    import ReactDOM from "react-dom";
+            const mycode=(
+       <table>
+            <tr>
+                <th>customer name</th>
+                <th>customer city</th>
+                <th>amout of purchase</th>
+            </tr>
+            <tr>
+                <td>praveen</td>
+                <td>madurai</td>
+                <td>12000</td>
+            </tr>
+            <tr>
+                <td>kumar</td>
+                <td>chennai</td>
+                <td>10000</td>
+            </tr>
+        </table>
+    );
+     reactdom.render(mycode,document.getElementById("root"));
+    <div id="root"></div>
